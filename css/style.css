@@ -70,6 +70,10 @@ div.section{
 	margin-left: 10%;
 	margin-right: 10%;
 }
+div.lsection{
+	text-align: left;
+	margin-left: 15%
+}
 li.list{
 	font-family: Charcoal;
 	font-size: 18px;
