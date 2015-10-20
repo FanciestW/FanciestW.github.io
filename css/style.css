@@ -10,16 +10,35 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
-a:link{
+a.link:link{
 	color: #505050;
 	text-decoration: none;
 }
-a:visited{
+a.link:visited{
 	color: #505050;
 	text-decoration: none;
 }
-a:hover{
+a.link:hover{
 	text-decoration: underline;
+}
+table.nav{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 25px;
+}
+td.nav{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a.nav:link{
+	color:#404040;
+	text-decoration: none;
+}
+a.nav:visited{
+	color:#404040;
+	text-decoration: none;
 }
 #myPic{
 	width: 25%;
@@ -72,7 +91,7 @@ div.section{
 }
 div.lsection{
 	text-align: left;
-	margin-left: 15%
+	margin-left: 1	5%
 }
 li.list{
 	font-family: Charcoal;
