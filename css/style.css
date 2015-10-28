@@ -5,6 +5,8 @@ html{
 	background-size: cover;
 }
 body{
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 2s;
 	height: 100%;
 	width: 60%;
 	margin-left: auto;
@@ -45,7 +47,7 @@ a.nav:visited{
 	height: auto;
 	margin-bottom: -30%;
 	margin-left: 5%;
-	border-radius: 100%;
+	border-radius: 50%;
 }
 div.body{
 	margin-left: auto;
@@ -98,4 +100,13 @@ li.list{
 	font-size: 18px;
 	font-weight: bold;
 	color: #303030;
+}
+@-webkit-keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
 }
