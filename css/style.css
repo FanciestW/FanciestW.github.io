@@ -20,7 +20,7 @@ table.nav{
 	background-color: grey;
 	width: 100%;
 	text-align: center;
-	font-family: fantasy;
+	font-family: "fantasy";
 	font-size: 25px;
 }
 td.nav{
@@ -46,6 +46,15 @@ a.nav:visited{
 	color:#404040;
 	text-decoration: none;
 }
+p.title{
+	text-align: center;
+	font-size: 84px;
+	font-family: fantasy;
+	color: white;
+	text-shadow: -5px 5px 5px #000000;
+	margin-top: 0px;
+	padding-top: 5%;
+}
 img.myPic{
 	display: block;
 	margin: auto;
@@ -70,14 +79,6 @@ div.body{
 }
 hr{
 	width: 90%;
-}
-p.title{
-	text-align: center;
-	font-size: 84px;
-	font-family: fantasy;
-	color: #404040;
-	text-shadow: -5px 5px 5px #000000;
-	margin-bottom: 0px;
 }
 div.contact{
 	margin-bottom: 10px;
