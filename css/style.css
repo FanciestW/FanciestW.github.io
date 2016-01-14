@@ -1,0 +1,139 @@
+html{
+    background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+body{
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 2s;
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+/*div.background{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}*/
+table.nav{
+	position: fixed;
+	background-color: grey;
+	width: 100%;
+	text-align: center;
+	font-family: "fantasy";
+	font-size: 25px;
+}
+td.nav{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a.link:link{
+	color: #505050;
+	text-decoration: none;
+}
+a.link:visited{
+	color: #505050;
+	text-decoration: none;
+}
+a.link:hover{
+	text-decoration: underline;
+}
+a.nav:link{
+	color:#404040;
+	text-decoration: none;
+}
+a.nav:visited{
+	color:#404040;
+	text-decoration: none;
+}
+p.title{
+	text-align: center;
+	font-size: 84px;
+	font-family: fantasy;
+	color: white;
+	text-shadow: -5px 5px 5px #000000;
+	margin: 0px;
+	padding-top: 5%;
+}
+img.myPic{
+	display: block;
+	margin: auto;
+	width: 25%;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px #fff;
+}
+p.quote{
+	font-weight: 200;
+	font-style: italic;
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+div.body{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 1);
+	height: 100;
+	width: 100%;
+	padding-bottom: 20px;	
+}
+hr{
+	width: 90%;
+}
+div.contact{
+	margin-bottom: 10px;
+	border-top: 0px;
+	text-align: center;
+	color: #303030;
+	font-size: 24px;
+	font-family: fantasy;
+}
+p.header{
+	font-family: fantasy;
+	font-size: 32px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: #202020;
+}
+p.content{
+	font-family: Charcoal;
+	font-size: 18px;
+	font-weight: bold;
+	color: #303030;
+}
+div.section{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+div.lsection{
+	text-align: left;
+	margin-left: 30%
+}
+li.list{
+	font-family: Charcoal;
+	font-size: 18px;
+	font-weight: bold;
+	color: #303030;
+}
+@-webkit-keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
