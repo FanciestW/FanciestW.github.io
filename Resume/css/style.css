@@ -59,6 +59,7 @@ img.myPic{
 	width: 25%;
 	height: auto;
 	border-radius: 50%;
+	box-shadow: 0px 0px 50px #fff;
 }
 p.quote{
 	font-weight: 200;
