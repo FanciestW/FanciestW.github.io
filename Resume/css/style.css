@@ -113,6 +113,10 @@ div.lsection{
 	text-align: left;
 	margin-left: 20%
 }
+div.skillSect{
+	text-align: left;
+	margin-left: 30%;
+}
 li.list{
 	font-family: Charcoal;
 	font-size: 18px;
