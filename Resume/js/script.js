@@ -8,14 +8,10 @@ $(document).ready(function(){
 });
 
 $(window).scroll(function(){
-	var previousTop = 100;
     var currentTop = $(window).scrollTop();
-    console.log(currentTop);
-    console.log(previousTop);
-    if (currentTop < previousTop) {
-        $(".nav").show();
-    } else if(currentTop > previousTop){
-        $(".nav").hide();
+    if (currentTop < 100) {
+        $(".nav").show(200);
+    } else{
+        $(".nav").hide(200);
     }
-    this.previousTop = currentTop;
 });
