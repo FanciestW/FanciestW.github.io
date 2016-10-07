@@ -10,8 +10,8 @@ $(document).ready(function(){
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 100) {
-        $(".nav").show(200);
+        $(".nav").show();
     } else{
-        $(".nav").hide(200);
+        $(".nav").hide();
     }
 });
