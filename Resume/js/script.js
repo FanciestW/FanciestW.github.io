@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
-    if (currentTop < 100) {
+    if (currentTop < 500) {
         $(".nav").show();
     } else{
         $(".nav").hide();
