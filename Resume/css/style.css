@@ -44,6 +44,12 @@ a.nav:visited{
 	color:#404040;
 	text-decoration: none;
 }
+div.toTop{
+	position: fixed;
+	color: #505050;
+	bottom: 6%;
+	right: 6%;
+}
 p.title{
 	text-align: center;
 	font-size: 84px;
