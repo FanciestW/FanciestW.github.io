@@ -15,7 +15,7 @@ body{
 }
 table.nav{
 	position: fixed;
-	background-color: grey;
+	background-color: #808080;
 	width: 100%;
 	text-align: center;
 	font-family: "courier";
@@ -46,7 +46,7 @@ a.nav:visited{
 }
 div.toTop{
 	position: fixed;
-	color: #505050;
+	color: #808080;
 	bottom: 6%;
 	right: 6%;
 }
@@ -96,6 +96,23 @@ div.contact{
 	color: #303030;
 	font-size: 24px;
 	font-family: courier;
+}
+.bLink{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:link{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:visited{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:hover{
+	text-decoration: none;
+	box-shadow: 
+	color: #505050;
 }
 p.header{
 	font-family: courier;
