@@ -97,6 +97,23 @@ div.contact{
 	font-size: 24px;
 	font-family: courier;
 }
+.bLink{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:link{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:visited{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:hover{
+	text-decoration: none;
+	box-shadow: 
+	color: #505050;
+}
 p.header{
 	font-family: courier;
 	font-size: 32px;
