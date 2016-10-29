@@ -1,3 +1,3 @@
 #William Lin's Personal Website
-# url: https://FanciestW.github.io/WilliamResumeSite
+# url: https://FanciestW.github.io/Resume
 
