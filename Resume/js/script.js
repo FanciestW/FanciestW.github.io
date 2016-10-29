@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(".toTop").hide();
 	$('a').click(function(){
     	$('html, body').animate({
         	scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -9,9 +10,11 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
-    if (currentTop < 100) {
-        $(".nav").show(200);
+    if (currentTop < 500) {
+        $(".nav").show();
+        $(".toTop").hide();
     } else{
-        $(".nav").hide(200);
+        $(".nav").hide();
+        $(".toTop").show();
     }
 });
