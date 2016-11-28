@@ -72,7 +72,7 @@ p.quote{
 	margin: auto;
 	font-family: courier;
 	font-style: italic;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	color: white;
 	text-shadow: 2px 2px rgba(0,0,0,0.1);
 }
@@ -111,7 +111,6 @@ div.contact{
 }
 .bLink:hover{
 	text-decoration: none;
-	box-shadow: 
 	color: #505050;
 }
 p.header{
