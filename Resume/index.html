@@ -21,21 +21,23 @@
 </head>
 <body>
 	<script src="https://use.fontawesome.com/86376823fc.js"></script>
-	<script src="js/script.js"></script>
 	<script src="js/jquery-3.1.1.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-	<nav>
-		<div class="nav-wrapper">
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a class="nav" href="#contact">Contact Me</a></li>
-				<li><a class="nav" href="#about">About Me</a></li>
-				<li><a class="nav" href="#edu">Education</a></li>
-				<li><a class="nav" href="#exp">Job Experiences</a></li>
-				<li><a class="nav" href="#skill">Skills</a></li>
-				<li><a class="nav" href="#serv">Community Services</a></li>
-			</ul>
-		</div>
-	</nav>
+	<script src="js/script.js"></script>
+  	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper grey darken-2">
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#contact">Contact Me</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#exp">Job Experiences</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#serv">Community Services</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 	<a class="toTop" href="#top">
 		<div class="toTop">
 			<span class="fa-stack fa-2x">
@@ -46,9 +48,14 @@
 	</a>
 	<p class="title" id="top">William Lin</p>
 	<img class="myPic" src="img/newprofile.jpeg" alt="myPic">
-	<p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"<br>-Steve Jobs</p>
+	<div class="row">
+		<div class="col s12"><p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"</p></div>
+	</div>
+	<div class="row">
+		<div class="col s4 offset-s4"><p class="quote">-Steve Jobs</p></div>
+	</div>
 	<div class="body">
-		<div class="contact" id="contact">
+		<div class="contact scrollspy" id="contact">
 			26 Darrin Drive<br>
 			Shelton CT, 06484<br>
 			Phone: 917-434-8023<br>
