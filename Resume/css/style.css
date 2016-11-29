@@ -44,9 +44,15 @@ a.nav:visited{
 	color:#404040;
 	text-decoration: none;
 }
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
 div.toTop{
 	position: fixed;
-	color: #808080;
+	color: #616161;
 	bottom: 6%;
 	right: 6%;
 }
@@ -72,7 +78,7 @@ p.quote{
 	margin: auto;
 	font-family: courier;
 	font-style: italic;
-	font-size: 2rem;
+	font-size: 175%;
 	color: white;
 	text-shadow: 2px 2px rgba(0,0,0,0.1);
 }
@@ -95,7 +101,7 @@ div.contact{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border-top: 0px;
-	text-align: left;
+	text-align: center;
 	color: #303030;
 	font-size: 24px;
 	font-family: courier;
