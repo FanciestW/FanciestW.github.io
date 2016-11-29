@@ -75,6 +75,9 @@ img.myPic{
 	border-radius: 50%;
 	box-shadow: 0px 0px 50px #fff;
 }
+div.quote{
+	text-align: center;
+}
 p.quote{
 	margin: auto;
 	font-family: courier;
