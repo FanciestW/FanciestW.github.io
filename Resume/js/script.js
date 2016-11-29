@@ -6,15 +6,16 @@ $(document).ready(function(){
     	}, 500);
     	return false;
 	});
+    $(".scrollspy").scrollspy();
 });
 
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 500) {
-        $(".nav").show();
+        $(".navbar-fixed").show();
         $(".toTop").hide();
     } else{
-        $(".nav").hide();
+        $(".navbar-fixed").hide();
         $(".toTop").show();
     }
 });

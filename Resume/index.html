@@ -6,30 +6,38 @@
 	<meta name="description" content="William Lin's Personal Website">
 	<meta name="keywords" content="William Lin,Personal Website,Resume">
 	<meta name="author" content="William Lin">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=.5">
 	<link rel="icon" type="type/png" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/86376823fc.js"></script>
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/script.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<!-- Compiled and minified CSS -->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  	<!-- Compiled and minified JavaScript -->
 </head>
 <body>
-	<table class="nav" id="navbar">
-		<tr>
-			<td class="nav"><a class="nav" href="#contact">Contact Me</a></td>
-			<td class="nav"><a class="nav" href="#about">About Me</a></td>
-			<td class="nav"><a class="nav" href="#edu">Education</a></td>
-			<td class="nav"><a class="nav" href="#exp">Job Experiences</a></td>
-			<td class="nav"><a class="nav" href="#skill">Skills</a></td>
-			<td class="nav"><a class="nav" href="#serv">Community Services</a></td>
-		</tr>
-	</table>
+	<script src="https://use.fontawesome.com/86376823fc.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="js/script.js"></script>
+  	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper grey darken-2">
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#contact">Contact Me</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#exp">Job Experiences</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#serv">Community Services</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 	<a class="toTop" href="#top">
 		<div class="toTop">
 			<span class="fa-stack fa-2x">
@@ -40,9 +48,14 @@
 	</a>
 	<p class="title" id="top">William Lin</p>
 	<img class="myPic" src="img/newprofile.jpeg" alt="myPic">
-	<p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"<br>-Steve Jobs</p>
+	<div class="row">
+		<div class="col s12"><p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"</p></div>
+	</div>
+	<div class="row">
+		<div class="col s4 offset-s4"><p class="quote">-Steve Jobs</p></div>
+	</div>
 	<div class="body">
-		<div class="contact" id="contact">
+		<div class="contact scrollspy" id="contact">
 			26 Darrin Drive<br>
 			Shelton CT, 06484<br>
 			Phone: 917-434-8023<br>
@@ -130,7 +143,7 @@
 		<hr>
 		<div class="section" id="serv">
 			<p class="header">Community Service</p>
-			<div class="lsection">
+			<div class="skillSection">
 				<p class="content">
 					<u>Boys and Girls Club of Lower Naugatuck Valley</u><br>
 					<i>Volunteer</i><br>

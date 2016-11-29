@@ -72,7 +72,7 @@ p.quote{
 	margin: auto;
 	font-family: courier;
 	font-style: italic;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	color: white;
 	text-shadow: 2px 2px rgba(0,0,0,0.1);
 }
@@ -90,9 +90,12 @@ hr{
 	width: 90%;
 }
 div.contact{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10px;
 	border-top: 0px;
-	text-align: center;
+	text-align: left;
 	color: #303030;
 	font-size: 24px;
 	font-family: courier;
@@ -111,7 +114,6 @@ div.contact{
 }
 .bLink:hover{
 	text-decoration: none;
-	box-shadow: 
 	color: #505050;
 }
 p.header{
@@ -133,12 +135,16 @@ div.section{
 	margin-right: 10%;
 }
 div.lsection{
+	display: inline-block;
 	text-align: left;
-	margin-left: 20%
+	margin-left: auto;
+	margin-right: auto;
 }
 div.skillSect{
+	display: inline-block;
 	text-align: left;
-	margin-left: 30%;
+	margin-left: auto;
+	margin-right: auto;
 }
 li.list{
 	font-family: courier;
