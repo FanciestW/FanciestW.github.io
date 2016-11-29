@@ -11,10 +11,10 @@ $(document).ready(function(){
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 500) {
-        $(".navbar-fixed").fadeIn(300);
+        //$(".navbar-fixed").fadeIn(300);
         $(".toTop").fadeOut(300);
     } else {
-        $(".navbar-fixed").fadeOut(300);
+        //$(".navbar-fixed").fadeOut(300);
         $(".toTop").fadeIn(300);
     }
 });
