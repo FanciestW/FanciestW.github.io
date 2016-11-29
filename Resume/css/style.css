@@ -12,7 +12,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
+}/*
 table.nav{
 	position: fixed;
 	background-color: #808080;
@@ -25,6 +25,7 @@ td.nav{
 	padding-left: 10px;
 	padding-right: 10px;
 }
+*/
 a.link:link{
 	color: #505050;
 	text-decoration: none;
