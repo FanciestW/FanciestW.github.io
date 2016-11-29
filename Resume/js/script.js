@@ -12,10 +12,10 @@ $(document).ready(function(){
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 500) {
-        //$(".navbar-fixed").show();
+        $(".navbar-fixed").show();
         $(".toTop").hide();
     } else{
-        //$(".navbar-fixed").hide();
+        $(".navbar-fixed").hide();
         $(".toTop").show();
     }
 });

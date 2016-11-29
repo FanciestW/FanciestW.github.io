@@ -90,9 +90,12 @@ hr{
 	width: 90%;
 }
 div.contact{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10px;
 	border-top: 0px;
-	text-align: center;
+	text-align: left;
 	color: #303030;
 	font-size: 24px;
 	font-family: courier;
@@ -132,12 +135,16 @@ div.section{
 	margin-right: 10%;
 }
 div.lsection{
+	display: inline-block;
 	text-align: left;
-	margin-left: 20%
+	margin-left: auto;
+	margin-right: auto;
 }
 div.skillSect{
+	display: inline-block;
 	text-align: left;
-	margin-left: 30%;
+	margin-left: auto;
+	margin-right: auto;
 }
 li.list{
 	font-family: courier;
