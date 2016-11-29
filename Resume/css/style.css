@@ -74,6 +74,8 @@ p.title{
 img.myPic{
 	display: block;
 	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	width: 25%;
 	height: auto;
 	border-radius: 50%;
