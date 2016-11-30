@@ -17,7 +17,7 @@
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 	<!-- Compiled and minified CSS -->
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-  	<!-- Compiled and minified JavaScript -->
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 	<script src="https://use.fontawesome.com/86376823fc.js"></script>
@@ -26,8 +26,10 @@
 	<script src="js/script.js"></script>
   	<div class="navbar-fixed">
 		<nav>
-			<div class="nav-wrapper grey darken-2">
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<div class="nav-wrapper grey darken-1">
+				<a class="brand-logo brand" id="nameHeader">William Lin</a>
+				<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
 					<li><a href="#contact">Contact Me</a></li>
 					<li><a href="#about">About Me</a></li>
 					<li><a href="#edu">Education</a></li>
@@ -35,6 +37,14 @@
 					<li><a href="#skill">Skills</a></li>
 					<li><a href="#serv">Community Services</a></li>
 				</ul>
+				<ul class="side-nav" id="mobile-nav">
+			        <li><a href="#contact">Contact Me</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#exp">Job Experiences</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#serv">Community Services</a></li>
+			    </ul>
 			</div>
 		</nav>
 	</div>
@@ -47,13 +57,15 @@
 		</div>
 	</a>
 	<a class="anchor" id="top"></a>
-	<p class="title">William Lin</p>
+	<!-- <p class="title">William Lin</p> -->
 	<img class="myPic" src="img/newprofile.jpeg" alt="myPic">
-	<div class="row">
-		<div class="col s12"><p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"</p></div>
-	</div>
-	<div class="row">
-		<div class="col s4 offset-s4"><p class="quote">-Steve Jobs</p></div>
+	<div class="quote">
+		<div class="row">
+			<div class="col s12"><p class="quote">"Let's go invent tomorrow instead of worrying about what happened yesterday"</p></div>
+		</div>
+		<div class="row">
+			<div class="col s4 offset-s4"><p class="quote">-Steve Jobs</p></div>
+		</div>
 	</div>
 	<div class="body">
 		<a class="anchor" id="contact"></a>
@@ -168,5 +180,30 @@
 			</div>
 		</div>
 	</div>
+	<footer class="page-footer grey darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>

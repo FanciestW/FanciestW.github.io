@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(".button-collapse").sideNav();
     $('.toTop').hide();
 	$('a').click(function(){
     	$('html, body').animate({

@@ -7,12 +7,12 @@ body{
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: center;
     background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
+/*
 table.nav{
 	position: fixed;
 	background-color: #808080;
@@ -24,6 +24,11 @@ table.nav{
 td.nav{
 	padding-left: 10px;
 	padding-right: 10px;
+}
+*/
+#nameHeader{
+	padding-left: 5%;
+	font-size: 3.1rem;
 }
 a.link:link{
 	color: #505050;
@@ -69,10 +74,15 @@ p.title{
 img.myPic{
 	display: block;
 	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	width: 25%;
 	height: auto;
 	border-radius: 50%;
 	box-shadow: 0px 0px 50px #fff;
+}
+div.quote{
+	text-align: center;
 }
 p.quote{
 	margin: auto;
