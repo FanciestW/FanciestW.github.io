@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    $(".toTop").hide();
+    $(".button-collapse").sideNav();
+    $('.toTop').hide();
 	$('a').click(function(){
     	$('html, body').animate({
         	scrollTop: $( $.attr(this, 'href') ).offset().top
-    	}, 500);
+    	}, 700);
     	return false;
 	});
 });
@@ -11,10 +12,10 @@ $(document).ready(function(){
 $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 500) {
-        $(".nav").show();
-        $(".toTop").hide();
-    } else{
-        $(".nav").hide();
-        $(".toTop").show();
+        //$(".navbar-fixed").fadeIn(300);
+        $(".toTop").fadeOut(300);
+    } else {
+        //$(".navbar-fixed").fadeOut(300);
+        $(".toTop").fadeIn(300);
     }
 });
