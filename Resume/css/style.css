@@ -26,9 +26,8 @@ td.nav{
 	padding-right: 10px;
 }
 */
-#nameHeader{
-	padding-left: 5%;
-	font-size: 3.1rem;
+.nameHeader{
+	left: 5%;
 }
 a.link:link{
 	color: #505050;
