@@ -48,19 +48,19 @@ a.nav:visited{
 	color:#404040;
 	text-decoration: none;
 }
-a.anchor {
+.anchor {
     display: block;
     position: relative;
     top: -70px;
     visibility: hidden;
 }
-div.toTop{
+.toTop{
 	position: fixed;
 	color: #616161;
 	bottom: 6%;
 	right: 6%;
 }
-p.title{
+.title{
 	text-align: center;
 	font-size: 84px;
 	font-family: courier;
