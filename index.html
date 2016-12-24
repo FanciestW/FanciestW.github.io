@@ -30,6 +30,44 @@
 		    	<h1>Education</h1>
 		    	<h5>University of New Haven<br>Computer Science BS<br>2015 - 2019</h5>
 		      	<p class="grey-text text-darken-3 lighten-3">I study computer science at the University of New Haven in West Haven CT.</p>
+		      	  <!-- Modal Trigger -->
+			  	<a class="waves-effect waves-light btn" href="#modal1">Send a Message</a>
+
+			  	<!-- Modal Structure -->
+			  	<div id="modal1" class="modal">
+			    	<div class="modal-content">
+				      	<div class="row">
+							<form class="col s12">
+						      	<div class="row">
+						        	<div class="input-field col s6">
+						          		<input placeholder="Placeholder" id="first_name" type="text" class="validate">
+						          		<label for="first_name">First Name</label>
+						        	</div>
+						        	<div class="input-field col s6">
+						          		<input id="last_name" type="text" class="validate">
+						         		<label for="last_name">Last Name</label>
+						        	</div>
+						      	</div>
+						      	<div class="row">
+						        	<div class="input-field col s12">
+						          		<input id="email" type="email" class="validate">
+						          		<label for="email">Your Email</label>
+						        	</div>
+						      	</div>
+						      	<div class="row">
+							      	<div class="input-field col s12">
+							      		<textarea id="message" class="materialize-textarea"></textarea>
+							      		<label for="message">Message</label>
+							      	</div>
+						      	</div>
+						    </form>
+						</div>
+			    	</div>
+			    	<div class="modal-footer">
+			      		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="clearForm()">Cancel</a>
+			      		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="sendMsg()">Send</a>
+			    	</div>
+			  	</div>
 		    </div>
 		</div>
 		<div class="parallax-container">
