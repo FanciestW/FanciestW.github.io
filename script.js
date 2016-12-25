@@ -11,6 +11,12 @@ $(document).ready(function(){
 
 	$('.parallax').parallax();
 	$('.modal').modal();
+	$('a[href*="#"]:not([href="#modal1"])').click(function(){
+    	$('html, body').animate({
+        	scrollTop: $( $.attr(this, 'href') ).offset().top
+    	}, 700);
+    	return false;
+	});
 });
 
 function clearForm(){
