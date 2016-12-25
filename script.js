@@ -38,7 +38,8 @@ function sendMsg(){
 		firstName: fName,
 		lastName: lName,
 		email: em,
-		message: msg
+		message: msg,
+		fromSite: "FanciestW.github.io"
 	});
 	clearForm();
 }
