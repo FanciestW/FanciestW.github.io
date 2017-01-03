@@ -25,7 +25,6 @@ function clearForm(){
 	$('#last_name').val("");
 	$('#email').val("");
 	$('#message').val("");
-	console.log("Tested");
 }
 
 function sendMsg(){
