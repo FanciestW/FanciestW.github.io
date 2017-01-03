@@ -9,6 +9,7 @@ $(document).ready(function(){
   	};
   	firebase.initializeApp(config);
 
+	$(".button-collapse").sideNav();
 	$('.parallax').parallax();
 	$('.modal').modal();
 	$('a[href*="#"]:not([href="#modal1"])').click(function(){
